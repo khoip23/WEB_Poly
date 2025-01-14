@@ -1,0 +1,241 @@
+.f16px {
+  font-size: 16pxpx;
+}
+
+.f18px {
+  font-size: 18pxpx;
+}
+
+.f20px {
+  font-size: 20pxpx;
+}
+
+.f22px {
+  font-size: 22pxpx;
+}
+
+.f24px {
+  font-size: 24pxpx;
+}
+
+.f26px {
+  font-size: 26pxpx;
+}
+
+.bg-primary {
+  background-color: blue;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.border-primary {
+  border-color: blue;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.bg-light {
+  background-color: #e2ebfc;
+}
+
+.text-light {
+  color: #e2ebfc;
+}
+
+.border-light {
+  border-color: #e2ebfc;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.border-dark {
+  border-color: #000;
+}
+
+.bg-warning {
+  background-color: #f9d716;
+}
+
+.text-warning {
+  color: #f9d716;
+}
+
+.border-warning {
+  border-color: #f9d716;
+}
+
+.f16px {
+  font-size: 16pxpx;
+}
+
+.f18px {
+  font-size: 18pxpx;
+}
+
+.f20px {
+  font-size: 20pxpx;
+}
+
+.f22px {
+  font-size: 22pxpx;
+}
+
+.f24px {
+  font-size: 24pxpx;
+}
+
+.f26px {
+  font-size: 26pxpx;
+}
+
+.bg-primary {
+  background-color: blue;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.border-primary {
+  border-color: blue;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.bg-light {
+  background-color: #e2ebfc;
+}
+
+.text-light {
+  color: #e2ebfc;
+}
+
+.border-light {
+  border-color: #e2ebfc;
+}
+
+.bg-dark {
+  background-color: #000;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.border-dark {
+  border-color: #000;
+}
+
+.bg-warning {
+  background-color: #f9d716;
+}
+
+.text-warning {
+  color: #f9d716;
+}
+
+.border-warning {
+  border-color: #f9d716;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.active {
+  color: blue !important;
+  border-bottom: 3px solid blue;
+}
+
+.shadow, .header {
+  box-shadow: 10px 19px 32px 17px rgba(16, 149, 240, 0.75);
+  -webkit-box-shadow: 10px 19px 32px 17px rgba(16, 149, 240, 0.75);
+  -moz-box-shadow: 10px 19px 32px 17px rgba(16, 149, 240, 0.75);
+}
+
+.shadow-item {
+  box-shadow: 6px 6px 12px #e2ebfc, -6px -6px 12px #fff;
+}
+
+:root {
+  --bg-header: #e2ebfc;
+}
+
+.header {
+  background: #e2ebfc;
+  padding: 1rem;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .logo {
+  font-size: 40px;
+  font-weight: 800;
+  color: blue;
+}
+.header .container .menu ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.header .container .menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  position: relative;
+}
+.header .container .menu ul li a::before {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: blue;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s;
+}
+.header .container .menu ul li a:hover {
+  color: blue;
+}
+.header .container .menu ul li a:hover::before {
+  width: 100%;
+  transition: width 0.3s;
+}/*# sourceMappingURL=style.css.map */
