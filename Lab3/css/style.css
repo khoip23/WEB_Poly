@@ -1,6 +1,11 @@
 .container{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
+    margin-left: 25%;
+}
+
+h2 {
+    text-align: center;
 }
 
 .e1 , .e4{
