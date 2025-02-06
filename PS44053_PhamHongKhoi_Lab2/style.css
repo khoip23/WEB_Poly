@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    background-color: #FF4500;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #111;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 80%;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #FF4500;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.main-content {
+    width: 80%;
+    padding: 15px;
+    order: 1; /* Đưa main content lên trước */
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    order: 2; /* Đưa sidebar ra sau */
+}
+
+
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
