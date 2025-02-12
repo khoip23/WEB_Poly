@@ -1,8 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
 
 .header img {
     width: 100%;
@@ -10,96 +15,73 @@ body {
 }
 
 .navbar {
-    background-color: #FF4500;
-    overflow: hidden;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    background-color: #ff6600;
     text-align: center;
-}
-
-.navbar ul li {
-    display: inline;
-}
-
-.navbar ul li a {
-    display: inline-block;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: inline-flex;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-}
-
-.navbar ul li a:hover {
-    background-color: #111;
-}
-
-.content {
+    font-weight: bold;
+  }
+  
+  main {
     display: flex;
-    text-align: center;
-}
-
-.sidebar {
-    width: 20%;
-    background-color: #f4f4f4;
-    padding: 15px;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar ul li {
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .content {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+    text-align: right;
+  }
+  
+  .sidebar h3 {
     margin-bottom: 10px;
-}
-
-.sidebar ul li a {
-    color: #0000EE;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar li {
+    margin: 8px 0;
+  }
+  
+  .sidebar a {
     text-decoration: none;
-}
-
-.sidebar ul li a:hover {
-    text-decoration: underline;
-}
-
-.main-content {
-    width: 80%;
-    padding: 15px;
-}
-
-.footer {
-    background-color: #FF4500;
+    color: #007bff;
+  }
+  
+  footer {
+    background-color: #ff6600;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.content {
-    display: flex;
-}
-
-.main-content {
-    width: 80%;
-    padding: 15px;
-    order: 1; /* Đưa main content lên trước */
-}
-
-.sidebar {
-    width: 20%;
-    background-color: #f4f4f4;
-    padding: 15px;
-    order: 2; /* Đưa sidebar ra sau */
-}
+    margin-top: 20px;
+  }
 
 
-iframe[name=page]{
-    width: 100%;
-    min-height: 400px;
-}
+
+
