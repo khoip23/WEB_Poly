@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.my-form {
+    font-size: 25px;
+    font-weight: 300;
+    color: red;
+    margin: 30px auto;
+    width: 500px;
+    min-height: 300px;
+    border-radius: 10px;
+    border: 2px solid orange;
+}
