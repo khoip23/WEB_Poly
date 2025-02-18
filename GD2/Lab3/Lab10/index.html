@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD2/Lab3/Lab10/css/style.css"">
+    <title>Lab10</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Bài 1</h1>
+        <form>
+            <div class="form-group">
+                <label for="fullname">Họ và Tên:</label>
+                <input type="text" id="fullname" name="fullname" tabindex="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Ghi chú:</label>
+                <textarea id="notes" name="notes" tabindex="2"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="nationality">Quốc tịch:</label>
+                <input type="text" id="nationality" name="nationality" value="Việt Nam" readonly>
+            </div>
+
+            <div class="button-group">
+                <button type="button" id="addBtn" tabindex="3">Thêm</button>
+                <button type="button" id="editBtn" tabindex="4">Sửa</button>
+                <button type="button" id="deleteBtn" disabled>Xóa</button>
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>

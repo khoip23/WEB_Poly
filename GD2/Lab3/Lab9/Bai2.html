@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GD2/Lab3/Lab9/css/style.css">
+    <title>Bai2</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bai 2</h2>
+        <div class="bai2">
+            <div class="form-register">
+                <div class="UserName">
+                    <div>Họ và tên:</div>
+                    <input type="text" name="username" class="form-control" />
+                </div>
+                <div class="Gender">
+                    <label><b>Giới tính:</b></label>
+                    <input type="radio" id="male" name="gender" value="male" checked>
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Nữ</label>
+                </div>
+
+                <div class="Upload">
+                    <label><b>Hình ảnh:</b></label>
+                    <input type="file" name="image" accept="image/*">
+                </div>
+                <div class="Nationality">
+                    <div>Quốc tịch</div>
+                    <div class="country">
+                        <select class="form-select form-select-lg" name="" id="">
+                            <option selected="">UnitedState</option>
+                            <option value="">VietNam</option>
+                            <option value="">England</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="interest">
+                    <div class="interest">
+                        <div>Sở thích</div>
+                        <input type="checkbox" name="interest" value="sports"> Thể thao
+                        <input type="checkbox" name="interest" value="travel"> Du lịch
+                        <input type="checkbox" name="interest" value="music"> Âm nhạc
+                        <input type="checkbox" name="interest" value="food"> Ẩm thực
+                    </div>
+                </div>
+                <div class="note">
+                    <div>Ghi chú</div>
+                    <textarea name="note"></textarea><br><br>
+                </div>
+
+                <button type="submit">Đăng ký</button>
+                <button type="reset">Nhập lại</button>
+            </div>
+            <nav class="nav-footer">
+                <ul>
+                    <li>
+                        <a href="/GD2/Lab3/Lab9/index.html">Bài 1</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</body>
+
+</html>
