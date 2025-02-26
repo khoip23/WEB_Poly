@@ -297,3 +297,63 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+.menu {
+    background-color: #333;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.menu > a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background: #444;
+    border-radius: 8px;
+}
+
+.menu > a:hover {
+    background: #ff9800;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    background: #444;
+    border-radius: 8px;
+}
+
+.submenu li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.submenu a:hover {
+    background: #ff9800;
+}
+
+/* Hiển thị menu con khi hover vào menu chính */
+.menu:hover .submenu {
+    display: block;
+}
